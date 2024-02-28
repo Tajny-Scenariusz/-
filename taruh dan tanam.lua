@@ -349,9 +349,9 @@ end
 userId = tostring(GetLocal().userid)
 if isUserIdAllowed(userId) then
   log("`6WAIT.. CEK USERID")
-  Sleep(1000)
-  log("`6SC PNB AUTO CONSUME BY SecretCommunity")
-  Sleep(1000)
+  Sleep(5000)
+  log("`6SC PNB AUTO CONSUME BY SECRETCOMMUNITY")
+  Sleep(2000)
   log("`6MATCH USERID, STARTED PNB")
   
   if DISABLE then
