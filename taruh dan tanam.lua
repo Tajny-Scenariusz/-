@@ -472,5 +472,5 @@ while true do
 end
 end
 else
-    Log("`4Acces denied, User ID not registered.")
+    log("`4Acces denied, User ID not registered.")
 end
