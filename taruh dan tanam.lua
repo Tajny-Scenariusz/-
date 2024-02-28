@@ -261,17 +261,17 @@ local DATA = [[
                     "inline": true
                   },
                   {
-                    "name": ":1201493452098109451: Current Gems",
+                    "name": "<:gems:1011931178510602240> Current Gems",
                     "value": "]]..FormatNumber(GetPlayerInfo().gems)..[[",
                     "inline": true
                   },
                   {
-                    "name": ":1201493452098109451: Total BGems In World",
+                    "name": ":<:gems:1011931178510602240> Total BGems In World",
                     "value": "]]..math.floor(BLACK_GEM_COUNT)..[[",
                     "inline": true
                   },
                   {
-                    "name": ":1201493452098109451: Earned BGems",
+                    "name": "<:gems:1011931178510602240> Earned BGems",
                     "value": "Getting ]]..math.floor(BLACK_GEMS_EARNED)..[[ BGems For ]]..WEBHOOK_TIME..[[ Minute",
                     "inline": true
                   },
@@ -314,7 +314,7 @@ local DATA = [[
                     "inline": true
                   },
                   {
-                    "name": ":1201493452098109451: Current Gems",
+                    "name": "<:gems:1011931178510602240> Current Gems",
                     "value": "]]..FormatNumber(GetPlayerInfo().gems)..[[",
                     "inline": true
                   },
@@ -348,15 +348,15 @@ end
 
 userId = tostring(GetLocal().userid)
 if isUserIdAllowed(userId) then
-  log("WAIT.. CEK USERID")
+  log("`6WAIT.. CEK USERID")
   Sleep(1000)
-  log("`^SC PNB AUTO CONSUME `#BY SecretCommunity")
+  log("`6SC PNB AUTO CONSUME BY SecretCommunity")
   Sleep(1000)
-  log("MATCH USERID, STARTED PNB")
+  log("`6MATCH USERID, STARTED PNB")
   
   if DISABLE then
   else
-    SendWebhook("AUTO PNB BOTHAX BY ALFIRST STORE STARTED")
+    SendWebhook("AUTO PNB BOTHAX BY SECRET COMMUNITY STARTED")
   end
 
 while true do
