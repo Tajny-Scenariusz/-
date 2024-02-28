@@ -244,7 +244,7 @@ local DATA = [[
             "embeds": [{
                 "footer": {
                     "text": "]]..os.date("%Y-%m-%d %H:%M:%S")..[[",
-                    "icon_url": "https://cdn.growtopia.tech/items/32.png"
+                    "icon_url": "https://img.freepik.com/free-vector/schedule-calendar-flat-style_78370-1550.jpg?size=626&ext=jpg"
                 },
                 "thumbnail": {
                     "url": "https://cdn.growtopia.tech/items/900.png"
@@ -297,7 +297,7 @@ local DATA = [[
             "embeds": [{
                 "footer": {
                     "text": "]]..os.date("%Y-%m-%d %H:%M:%S")..[[",
-                    "icon_url": "https://cdn.growtopia.tech/items/32.png"
+                    "icon_url": "https://img.freepik.com/free-vector/schedule-calendar-flat-style_78370-1550.jpg?size=626&ext=jpg"
                 },
                 "thumbnail": {
                     "url": "https://cdn.growtopia.tech/items/900.png"
