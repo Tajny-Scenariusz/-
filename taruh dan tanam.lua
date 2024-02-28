@@ -24,7 +24,7 @@ LEFT_MAG_X      = Magplant_X                      --JANGAN DISENTUH
 TIME_WEBHOOK    = os.time()                       --JANGAN DISENTUH
 CURRENT_GEMS    = GetPlayerInfo().gems            --JANGAN DISENTUH
 BLACK_GEM_COUNT = 0
-MEMEK           = math.floor(WEBHOOK_TIME * 60)   --JANGAN DISENTUH
+PUKI           = math.floor(WEBHOOK_TIME * 60)   --JANGAN DISENTUH
 -------------
 function log(txt)
     LogToConsole("`0[`cSecretCommunity`0]`#: "..txt)
@@ -349,7 +349,9 @@ end
 userId = tostring(GetLocal().userid)
 if isUserIdAllowed(userId) then
   log("`6WAIT.. CEK USERID")
-  Sleep(6000)
+  Sleep(1000)
+  log("`6SC PNB AUTO CONSUME BY SecretCommunity")
+  Sleep(1000)
   log("`6MATCH USERID, STARTED PNB")
   
   if DISABLE then
@@ -362,13 +364,13 @@ while true do
         SendPacket(2, "action|join_request\nname|" .. WORLD .. "")
         SendPacket(3, "action|join_request\nname|" .. WORLD .. "\ninvitedWorld|0")
         Sleep(10000)
-        SendWebhook("TRY RECONNECTING")
+        SendWebhook("RECONNECTING")
 
     elseif GetWorld().name ~= WORLD then
         SendPacket(2, "action|join_request\nname|" .. WORLD .. "")
         SendPacket(3, "action|join_request\nname|" .. WORLD .. "\ninvitedWorld|0")
         Sleep(10000)
-        SendWebhook("TRY RECONNECTING")
+        SendWebhook("RECONNECTING")
 
     elseif CheckRemote() then
     cekPos()
@@ -443,7 +445,7 @@ while true do
     end
     Sleep(800)
     
-    if os.time() - TIME_WEBHOOK >= MEMEK then
+    if os.time() - TIME_WEBHOOK >= PUKI then
     TIME_WEBHOOK = os.time()
     GETTING_GEMS = GetPlayerInfo().gems - CURRENT_GEMS
     CURRENT_GEMS = GetPlayerInfo().gems
