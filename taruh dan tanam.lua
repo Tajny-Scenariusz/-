@@ -266,7 +266,7 @@ local DATA = [[
                     "inline": true
                   },
                   {
-                    "name": ":<:gems:1011931178510602240> Total BGems In World",
+                    "name": "<:gems:1011931178510602240> Total BGems In World",
                     "value": "]]..math.floor(BLACK_GEM_COUNT)..[[",
                     "inline": true
                   },
